@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAILWIND</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+1 19 15
+
+<!-- <body class="h-screen bg-[#000000]/100 flex flex-col justify-center items-center text-[#FFF]"> -->
+
+<body class="h-screen bg-[rgba(122,13,13,0.5)]">
+    <section class="bg-green-900  w-full h-24 flex flex-col justify-between gap-6">
+        <span>Bloque 1</span>
+        <span>Bloque 2</span>
+    </section>
+    <section class="w-screen h-24 bg-gradient-to-r from-yellow-500 to-green-400">
+        GRADIALES
+    </section>
+    <!-- Gird - tailwind
+    <section class="w-full h-full grid grid-cols-3">
+        <div class="bg-blue-500 row-span-2">CONTENEDOR 1</div>
+        <div class="bg-yellow-500">CONTENEDOR 2 </div>
+        <div class="bg-blue-500">CONTENEDOR 3</div>
+        <div class="bg-yellow-500">CONTENEDOR 4 </div>
+        <div class="bg-blue-500">CONTENEDOR 5</div>
+        <div class="bg-yellow-500">CONTENEDOR 6 </div>
+        <div class="bg-red-500 col-span-3">CONTENEDOR 6 </div>
+
+    </section> -->
+
+    <!-- Breakpoint - tailwid -->
+    <section class="w-full h-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-12">
+        <div class="bg-blue-500 relative">
+            <div class="w-20 h-20 bg-white absolute bottom-0 -right-50 -z-1">
+                CAJA ABSOLUTA
+            </div>
+        </div>
+        <div class="bg-yellow-500">CONTENEDOR 2 </div>
+        <div class="bg-orange-500">CONTENEDOR 3</div>
+        <div class="bg-green-500">CONTENEDOR 4 </div>
+        <div class="bg-purple-500">CONTENEDOR 5</div>
+        <div class="bg-black">CONTENEDOR 6 </div>
+        
+
+    </section>
+
+</body>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+
+</html>
