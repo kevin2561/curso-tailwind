@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+.contenido-body {
+    @apply h-screen;
+    background-color: rgba(122, 13, 13, 0.5);
+    /* bg-[rgba(122, 13, 13, 0.5)]; */
+
+}
+
+.enlances-card2 {
+    @apply w-[50px] h-[50px] flex items-center justify-center bg-[#3] rounded-full hover:scale-110 cursor-pointer transition-transform duration-300 ease-in-out;
+}
