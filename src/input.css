@@ -8,5 +8,5 @@
 }
 
 .enlances-card2 {
-    @apply w-[50px] h-[50px] flex items-center justify-center bg-[#3] rounded-full hover:scale-110 cursor-pointer transition-transform duration-300 ease-in-out;
+    @apply w-[50px] h-[50px] flex items-center justify-center bg-[#3] border-2 rounded-full border-cyan-800 hover:scale-110 cursor-pointer transition-transform duration-300 ease-in-out;
 }
